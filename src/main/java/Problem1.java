@@ -6,7 +6,7 @@ public class Problem1 {
 
         int low = 0;
         int high = data.length-1;
-        int mid = 0;
+        int mid;
 
         while(high >= low) {
 
