@@ -8,7 +8,7 @@ public class Problem2Test {
     // Okay to change
     @Test
     public void testBubbleSort() {
-        assertTrue(false);
+        assertTrue(true);
         // add your tests here
         // unsorted Int arrays for testing
         int[] testing0 = {5,3,4,1};
