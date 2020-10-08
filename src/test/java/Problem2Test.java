@@ -19,7 +19,10 @@ public class Problem2Test {
 
         //calling the static method of the bubbleSort class to sort the array
         Problem2.bubbleSort(testing0);
+        for(int i = 0; i < testing0.length; ++i){
+            System.out.println(testing0[i]);}
         Problem2.bubbleSort(testing1);
+
         assertArrayEquals(testing0, testing0Key);
         assertArrayEquals(testing1,testing1Key);
 

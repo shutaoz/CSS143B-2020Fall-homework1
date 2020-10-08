@@ -7,10 +7,10 @@ public class Problem2 {
         int placeHolder;
         for(int i = 0; i < data.length - 1; ++i) {
             for(int j = 0; j < data.length - i - 1; ++j) {
-                if (data[i] > data[i + 1]) {
-                    placeHolder = data[i + 1];
-                    data[i + 1] = data[i];
-                    data[i] = placeHolder;
+                if (data[j] > data[j + 1]) {
+                    placeHolder = data[j + 1];
+                    data[j + 1] = data[j];
+                    data[j] = placeHolder;
 
                 }
             }
