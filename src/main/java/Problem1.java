@@ -6,11 +6,10 @@ public class Problem1 {
 
         int low = 0;
         int high = data.length-1;
-        int mid;
 
         while(high >= low) {
 
-            mid = low + (high - low) / 2;
+            int mid = low + ((high - low) / 2);
             //when Target is bigger than mid
             if(target > data[mid]) low = mid + 1;
             //when Target is smaller than mid
