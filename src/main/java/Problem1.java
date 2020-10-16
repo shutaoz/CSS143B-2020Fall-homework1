@@ -26,6 +26,7 @@ public class Problem1 {
 
         }
 
-        return -1; // Place holder
+        return -1;
+
     }
 }
